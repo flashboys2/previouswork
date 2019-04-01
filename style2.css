@@ -1,0 +1,374 @@
+h1 { font-size: 40px; line-height: 50px; }
+h2 { font-size: 36px; line-height: 48px; }
+h3 { font-size: 32px; line-height: 40px; }
+h4 { font-size: 30px; line-height: 36px; }
+h5 { font-size: 24px; line-height: 26px; }
+h6 { font-size: 24px; line-height: 26px; }
+body { font-size: 20px; line-height: 1.5em; color: #444}
+
+#header {
+    border-bottom: 5px solid #ff0039;
+}
+
+#title {
+    clear: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Arvo', serif;
+    font-size: 197%;
+    line-height: 200%;
+    font-weight: 800;
+}
+
+#title:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    background: #171a12;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-size: 75%;
+}
+
+.sidebar-title, .post-title {
+    margin-top: 0;
+}
+
+#sidebar .well.well-sm { overflow: hidden; } 
+
+h1 small {
+    padding-left: 5px;
+}
+
+.figure {
+    display: table;
+    margin: 0;
+    padding: 0;
+    width: 1%;
+}
+
+.figure img {
+    border: 0.0769em solid #2e3436;
+    -moz-box-shadow: 0.1923em 0.1923em 0.3846em #555753;
+    -webkit-box-shadow: 0.1923em 0.1923em 0.3846em #555753;
+    box-shadow: 0.1923em 0.1923em 0.3846em #555753;
+    margin: 0;
+    margin-bottom: 0.7692em;
+    padding: 0;
+}
+
+a:visited {
+    color: #4444cc;
+}
+
+.post-tags a {
+    font-size: 80%;
+    font-style: italic;
+}
+
+.post-tags a:visited {
+    color: #999;
+}
+.post-tags a:link {
+    color: #999;
+}
+.post-date {
+    font-size: 80%;
+    color: #666;
+}
+
+.post-tags {
+    display:block;
+}
+.post-published {
+    display:block;
+    clear: both;
+}
+
+.figure img.no-border {
+    border: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.align-left img {
+    margin-right: 0.7692em;
+}
+
+.align-right img {
+    margin-left: 0.7692em;
+}
+
+.transparentpng {
+    background: white;
+}
+
+.post-icon img {
+    width: 200px;
+}
+
+.caption {
+    font-style: italic;
+    font-size: smaller;
+    margin: 0;
+    margin-bottom: 0.7692em;
+    padding: 0;
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
+
+.align-left .caption {
+    margin-right: 1.5385em;
+}
+
+.align-right .caption {
+    margin-left: 1.5385em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+}
+
+.xtxlabel, .xtxtext {
+    border: 0;
+    vertical-align: top;
+}
+
+.xtxtext {
+    padding-left: 10px;
+}
+
+.skinnypic img {
+    width: 200px;
+}
+
+.invisible-table, .invisible-table td{
+    border: 0;
+}
+
+.literal {
+    border-bottom: 0.0769em solid #d0d0d0;
+}
+
+.highlight pre {
+    overflow: auto;
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overstrike {
+    text-decoration: line-through;
+}
+
+#subscription-buttons img {
+    margin-right: 4px;
+}
+
+/* From Pygments' default style */
+.hll { background-color: #ffffcc }
+.c { color: #408080; font-style: italic } /* Comment */
+.err { border: 1px solid #FF0000 } /* Error */
+.k { color: #008000; font-weight: bold } /* Keyword */
+.o { color: #666666 } /* Operator */
+.cm { color: #408080; font-style: italic } /* Comment.Multiline */
+.cp { color: #BC7A00 } /* Comment.Preproc */
+.c1 { color: #408080; font-style: italic } /* Comment.Single */
+.cs { color: #408080; font-style: italic } /* Comment.Special */
+.gd { color: #A00000 } /* Generic.Deleted */
+.ge { font-style: italic } /* Generic.Emph */
+.gr { color: #FF0000 } /* Generic.Error */
+.gh { color: #000080; font-weight: bold } /* Generic.Heading */
+.gi { color: #00A000 } /* Generic.Inserted */
+.go { color: #808080 } /* Generic.Output */
+.gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+.gs { font-weight: bold } /* Generic.Strong */
+.gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+.gt { color: #0040D0 } /* Generic.Traceback */
+.kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+.kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+.kn { color: #008000; font-weight: bold } /* Keyword.Namespace */
+.kp { color: #008000 } /* Keyword.Pseudo */
+.kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+.kt { color: #B00040 } /* Keyword.Type */
+.m { color: #666666 } /* Literal.Number */
+.s { color: #BA2121 } /* Literal.String */
+.na { color: #7D9029 } /* Name.Attribute */
+.nb { color: #008000 } /* Name.Builtin */
+.nc { color: #0000FF; font-weight: bold } /* Name.Class */
+.no { color: #880000 } /* Name.Constant */
+.nd { color: #AA22FF } /* Name.Decorator */
+.ni { color: #999999; font-weight: bold } /* Name.Entity */
+.ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.nf { color: #0000FF } /* Name.Function */
+.nl { color: #A0A000 } /* Name.Label */
+.nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+.nt { color: #008000; font-weight: bold } /* Name.Tag */
+.nv { color: #19177C } /* Name.Variable */
+.ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+.w { color: #bbbbbb } /* Text.Whitespace */
+.mf { color: #666666 } /* Literal.Number.Float */
+.mh { color: #666666 } /* Literal.Number.Hex */
+.mi { color: #666666 } /* Literal.Number.Integer */
+.mo { color: #666666 } /* Literal.Number.Oct */
+.sb { color: #BA2121 } /* Literal.String.Backtick */
+.sc { color: #BA2121 } /* Literal.String.Char */
+.sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+.s2 { color: #BA2121 } /* Literal.String.Double */
+.se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.sh { color: #BA2121 } /* Literal.String.Heredoc */
+.si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.sx { color: #008000 } /* Literal.String.Other */
+.sr { color: #BB6688 } /* Literal.String.Regex */
+.s1 { color: #BA2121 } /* Literal.String.Single */
+.ss { color: #19177C } /* Literal.String.Symbol */
+.bp { color: #008000 } /* Name.Builtin.Pseudo */
+.vc { color: #19177C } /* Name.Variable.Class */
+.vg { color: #19177C } /* Name.Variable.Global */
+.vi { color: #19177C } /* Name.Variable.Instance */
+.il { color: #666666 } /* Literal.Number.Integer.Long */
+
+
+
+/* BEGIN SHARING BUTTONS */
+.resp-sharing-button {
+  display: inline-block;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  transition: background-color 25ms ease-out, border-color 25ms ease-out, opacity 250ms ease-out;
+  margin: 0.5em;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.resp-sharing-button a {
+  text-decoration: none;
+  color: #FFF;
+  display: block;
+}
+
+.resp-sharing-button__icon {
+  display: inline-block;
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-bottom: -0.1em;
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #FFF;
+  fill: none;
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #FFF;
+  stroke: none;
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.resp-sharing-button--large .resp-sharing-button__icon svg {
+  padding-right: 0.4em;
+}
+
+.resp-sharing-button__wrapper {
+  display: inline-block;
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39;
+  border-color: #dd4b39;
+}
+
+.resp-sharing-button--google:hover,
+.resp-sharing-button--google:active {
+  background-color: #c23321;
+  border-color: #c23321;
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C;
+  border-color: #35465C;
+}
+
+.resp-sharing-button--tumblr:hover,
+.resp-sharing-button--tumblr:active {
+  background-color: #222d3c;
+  border-color: #222d3c;
+}
+
+.resp-sharing-button--email {
+  background-color: #444444;
+  border-color: #444444;
+}
+
+.resp-sharing-button--email:hover
+.resp-sharing-button--email:active {
+  background-color: #2B2B2B;
+  border-color: #2B2B2B;
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0976b4;
+  border-color: #0976b4;
+}
+
+.resp-sharing-button--linkedin:hover,
+.resp-sharing-button--linkedin:active {
+  background-color: #075683;
+  border-color: #075683;
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf;
+  border-color: #5f99cf;
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+  background-color: #3a80c1;
+  border-color: #3a80c1;
+}
+/* END SHARING BUTTONS */
+
